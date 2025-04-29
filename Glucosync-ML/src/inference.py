@@ -14,8 +14,8 @@ except AttributeError:
     raise SystemExit("❌ pyserial not installed or conflicted. Run 'pip install pyserial' and check for 'serial.py' in directory.")
 
 # Supabase configuration
-SUPABASE_URL = "https://bsrpkcxkcsxtofgknujk.supabase.co"  # Replace with your Supabase project URL
-SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJzcnBrY3hrY3N4dG9mZ2tudWprIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDE0MzI3MTYsImV4cCI6MjA1NzAwODcxNn0.9cXdWpjlf0Z2eNAqXls4vl3lJZF_pnNvxNUbPyqBImc"  # Replace with your Supabase anon public key
+SUPABASE_URL = "Replace with your Supabase project URL"  # Replace with your Supabase project URL
+SUPABASE_KEY = "Replace with your Supabase Anon Key"  # Replace with your Supabase anon public key
 
 # Initialize Supabase client
 try:
